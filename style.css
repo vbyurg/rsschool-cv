@@ -639,6 +639,40 @@ h2 {
   color: #054376;
 }
 
+.education {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+}
+.education--head {
+  color: #2F4F4F;
+}
+.education--item {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.education--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.education--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.english {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+}
+.english--head {
+  color: #2F4F4F;
+}
+.english p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+
 .footer {
   background-color: #0085FF;
 }
