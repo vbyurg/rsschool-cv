@@ -433,6 +433,7 @@ h2 {
 .main {
   flex: 1 1 auto;
   background-color: #F1F6FE;
+  padding: 0 0 40px 0;
 }
 
 .section--container {
@@ -476,6 +477,7 @@ h2 {
 .contacts {
   width: 50%;
   padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
 }
 .contacts--head {
   color: #2F4F4F;
@@ -504,17 +506,17 @@ h2 {
   padding: 0 10px 0 0;
 }
 .item--gh::before {
-  content: url("/assets/img//contacts/gh-icon.png");
+  content: url("./assets/img//contacts/gh-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
 .item--tg::before {
-  content: url("/assets/img//contacts/telegram-icon.png");
+  content: url("./assets/img//contacts/telegram-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
 .item--ds::before {
-  content: url("/assets/img//contacts/discord-icon.png");
+  content: url("./assets/img//contacts/discord-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
@@ -522,6 +524,7 @@ h2 {
 .about {
   width: 50%;
   padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
 }
 .about--head {
   color: #2F4F4F;
@@ -533,6 +536,7 @@ h2 {
 .skills {
   width: 50%;
   padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
 }
 .skills--head {
   color: #2F4F4F;
@@ -579,6 +583,7 @@ h2 {
 .code--ex {
   width: 50%;
   padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
 }
 .code--ex--head {
   color: #2F4F4F;
@@ -597,6 +602,7 @@ h2 {
 .courses {
   width: 50%;
   padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
 }
 .courses--head {
   color: #2F4F4F;
@@ -618,6 +624,7 @@ h2 {
 .projects {
   width: 50%;
   padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
 }
 .projects--head {
   color: #2F4F4F;
