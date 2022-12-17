@@ -489,6 +489,9 @@ h2 {
   letter-spacing: 1px;
   color: #696969;
 }
+.contacts--link:hover {
+  color: #054376;
+}
 
 .item--map::before {
   content: url("./assets/img//contacts/map-icon.png");
@@ -589,6 +592,51 @@ h2 {
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
+}
+
+.courses {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+}
+.courses--head {
+  color: #2F4F4F;
+}
+.courses--item {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.courses--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.courses--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.projects {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+}
+.projects--head {
+  color: #2F4F4F;
+}
+.projects--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.projects--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.projects--link {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.projects--link:hover {
+  color: #054376;
 }
 
 .footer {
