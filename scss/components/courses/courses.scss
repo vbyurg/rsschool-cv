@@ -1,0 +1,25 @@
+.courses {
+    width: 50%;
+    padding: 20px 0 20px 40px;
+    border-bottom: 2px solid $skills;
+
+    &--head {
+        color: $h;
+    }
+
+    &--item {
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: $text;
+
+        &:not(:last-child) {
+            padding: 0 0 10px 0;
+        }
+
+        &::before {
+            content: url('./assets/img/courses/circle.png');
+            vertical-align: middle;
+            padding: 0 10px 0 0;
+        }
+    }
+}
