@@ -1,4 +1,4 @@
-# ![фото](photo.jpg) Victor Byurg
+# ![фото](./assets/img/photo-cv-markdown.jpg) Victor Byurg
 
 ## Contacts
 * **Location:** Georgia, Batumi

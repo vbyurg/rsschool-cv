@@ -84,7 +84,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -433,7 +434,6 @@ h2 {
 .main {
   flex: 1 1 auto;
   background-color: #F1F6FE;
-  padding: 0 0 40px 0;
 }
 
 .section--container {
@@ -477,7 +477,6 @@ h2 {
 .contacts {
   width: 50%;
   padding: 20px 0 20px 40px;
-  border-bottom: 2px solid #054376;
 }
 .contacts--head {
   color: #2F4F4F;
@@ -491,9 +490,6 @@ h2 {
   letter-spacing: 1px;
   color: #696969;
 }
-.contacts--link:hover {
-  color: #054376;
-}
 
 .item--map::before {
   content: url("./assets/img//contacts/map-icon.png");
@@ -506,17 +502,17 @@ h2 {
   padding: 0 10px 0 0;
 }
 .item--gh::before {
-  content: url("./assets/img//contacts/gh-icon.png");
+  content: url("/assets/img//contacts/gh-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
 .item--tg::before {
-  content: url("./assets/img//contacts/telegram-icon.png");
+  content: url("/assets/img//contacts/telegram-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
 .item--ds::before {
-  content: url("./assets/img//contacts/discord-icon.png");
+  content: url("/assets/img//contacts/discord-icon.png");
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
@@ -524,7 +520,6 @@ h2 {
 .about {
   width: 50%;
   padding: 20px 40px 20px 0;
-  border-bottom: 2px solid #054376;
 }
 .about--head {
   color: #2F4F4F;
@@ -536,7 +531,6 @@ h2 {
 .skills {
   width: 50%;
   padding: 20px 0 20px 40px;
-  border-bottom: 2px solid #054376;
 }
 .skills--head {
   color: #2F4F4F;
@@ -580,106 +574,6 @@ h2 {
   vertical-align: middle;
 }
 
-.code--ex {
-  width: 50%;
-  padding: 20px 40px 20px 0;
-  border-bottom: 2px solid #054376;
-}
-.code--ex--head {
-  color: #2F4F4F;
-  margin: 20px 0 0;
-}
-
-.pre {
-  padding: 0;
-  margin: 0;
-  color: #696969;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
-}
-
-.courses {
-  width: 50%;
-  padding: 20px 0 20px 40px;
-  border-bottom: 2px solid #054376;
-}
-.courses--head {
-  color: #2F4F4F;
-}
-.courses--item {
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #696969;
-}
-.courses--item:not(:last-child) {
-  padding: 0 0 10px 0;
-}
-.courses--item::before {
-  content: url("./assets/img/courses/circle.png");
-  vertical-align: middle;
-  padding: 0 10px 0 0;
-}
-
-.projects {
-  width: 50%;
-  padding: 20px 40px 20px 0;
-  border-bottom: 2px solid #054376;
-}
-.projects--head {
-  color: #2F4F4F;
-}
-.projects--item::before {
-  content: url("./assets/img/courses/circle.png");
-  vertical-align: middle;
-  padding: 0 10px 0 0;
-}
-.projects--item:not(:last-child) {
-  padding: 0 0 10px 0;
-}
-.projects--link {
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #696969;
-}
-.projects--link:hover {
-  color: #054376;
-}
-
-.education {
-  width: 50%;
-  padding: 20px 0 20px 40px;
-}
-.education--head {
-  color: #2F4F4F;
-}
-.education--item {
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #696969;
-}
-.education--item:not(:last-child) {
-  padding: 0 0 10px 0;
-}
-.education--item::before {
-  content: url("./assets/img/courses/circle.png");
-  vertical-align: middle;
-  padding: 0 10px 0 0;
-}
-
-.english {
-  width: 50%;
-  padding: 20px 40px 20px 0;
-}
-.english--head {
-  color: #2F4F4F;
-}
-.english p {
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #696969;
-}
-
 .footer {
   background-color: #0085FF;
 }
@@ -696,6 +590,4 @@ h2 {
 
 .footer--img {
   width: 120px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
