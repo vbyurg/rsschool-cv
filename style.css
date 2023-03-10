@@ -1,0 +1,707 @@
+@font-face {
+  font-family: "SPOTNIK";
+  src: url("./assets/fonts/SPOTNIK.ttf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plug {
+  width: 100%;
+  height: 20px;
+  background-color: #0085FF;
+}
+
+h2 {
+  font-family: "SPOTNIK";
+}
+
+.header {
+  background-color: #0085FF;
+}
+.header .container {
+  padding: 20px 0;
+}
+
+.header--logo img {
+  width: 150px;
+}
+
+.nav--list {
+  gap: 35px;
+}
+.nav--link {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.nav--link:hover {
+  content: "";
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #FFFFFF;
+  transition: 0.7s linear;
+}
+
+.main {
+  flex: 1 1 auto;
+  background-color: #F1F6FE;
+  padding: 0 0 40px 0;
+}
+
+.section--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile {
+  padding: 70px 0;
+  font-family: "SPOTNIK";
+}
+.profile .container {
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.profile--letter {
+  margin: 0;
+  font-size: 32px;
+  color: #696969;
+}
+
+.profile--name {
+  font-size: 48px;
+  color: #2F4F4F;
+  margin: 22px 0;
+}
+
+.profile--profession {
+  margin: 0;
+  font-size: 24px;
+  color: #696969;
+}
+
+.author--photo {
+  width: 180px;
+  border: 1px solid #dfdddd;
+  border-radius: 49%;
+}
+
+.contacts {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
+}
+.contacts--head {
+  color: #2F4F4F;
+}
+.contacts--list {
+  align-items: flex-start;
+  gap: 10px;
+}
+.contacts--link {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.contacts--link:hover {
+  color: #054376;
+}
+
+.item--map::before {
+  content: url("./assets/img//contacts/map-icon.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.item--email::before {
+  content: url("./assets/img//contacts/email-icon.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.item--gh::before {
+  content: url("./assets/img//contacts/gh-icon.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.item--tg::before {
+  content: url("./assets/img//contacts/telegram-icon.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.item--ds::before {
+  content: url("./assets/img//contacts/discord-icon.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.about {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
+}
+.about--head {
+  color: #2F4F4F;
+}
+.about p {
+  color: #696969;
+}
+
+.skills {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
+}
+.skills--head {
+  color: #2F4F4F;
+}
+.skills--item {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.skills--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.skills--html::before {
+  content: url("./assets/img/skills/html5.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+.skills--css::before {
+  content: url("./assets/img/skills/css.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+.skills--js::before {
+  content: url("./assets/img/skills/js.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+.skills--sass::before {
+  content: url("./assets/img/skills/sass.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+.skills--gh::before {
+  content: url("./assets/img/skills/gh-icon.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+.skills--figma::before {
+  content: url("./assets/img/skills/figma.png");
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.code--ex {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
+}
+.code--ex--head {
+  color: #2F4F4F;
+  margin: 20px 0 0;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+  color: #696969;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.courses {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+  border-bottom: 2px solid #054376;
+}
+.courses--head {
+  color: #2F4F4F;
+}
+.courses--item {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.courses--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.courses--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.projects {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+  border-bottom: 2px solid #054376;
+}
+.projects--head {
+  color: #2F4F4F;
+}
+.projects--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.projects--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.projects--link {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.projects--link:hover {
+  color: #054376;
+}
+
+.education {
+  width: 50%;
+  padding: 20px 0 20px 40px;
+}
+.education--head {
+  color: #2F4F4F;
+}
+.education--item {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+.education--item:not(:last-child) {
+  padding: 0 0 10px 0;
+}
+.education--item::before {
+  content: url("./assets/img/courses/circle.png");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.english {
+  width: 50%;
+  padding: 20px 40px 20px 0;
+}
+.english--head {
+  color: #2F4F4F;
+}
+.english p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+
+.footer {
+  background-color: #0085FF;
+}
+
+.footer--wrapper {
+  padding: 40px 0 40px;
+}
+
+.year p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #F1F6FE;
+}
+
+.github--link::before {
+  content: url("./assets/img/svg/footer/gh-icon.svg");
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.footer--img {
+  width: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */

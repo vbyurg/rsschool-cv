@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon/cv-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="container flex-row">
+                <!-- Header logo -->
+                <div class="header--logo">
+                    <img src="./assets/img/header/logo_byurg.png" alt="header logo">
+                </div>
+                <!-- Header navigation -->
+                <nav class="header--nav nav">
+                    <ul class="nav--list flex-row">
+                        <li class="nav--item"><a href="#profile" class="nav--link">profile</a></li>
+                        <li class="nav--item"><a href="#contacts" class="nav--link">contacts</a></li>
+                        <li class="nav--item"><a href="#about" class="nav--link">about me</a></li>
+                        <li class="nav--item"><a href="#skills" class="nav--link">skills</a></li>
+                        <li class="nav--item"><a href="#code" class="nav--link">code</a></li>
+                        <li class="nav--item"><a href="#courses" class="nav--link">courses</a></li>
+                        <li class="nav--item"><a href="#projects" class="nav--link">projects</a></li>
+                        <li class="nav--item"><a href="#education" class="nav--link">education</a></li>
+                        <li class="nav--item"><a href="#english" class="nav--link">english</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+
+            <section class="profile" id="profile">
+                <div class="container">
+                    <div class="container flex-row">
+                        <div class="profile--author">
+                            <p class="profile--letter">Hi, I am</p>
+                            <h1 class="profile--name">Byurg Viktor</h1>
+                            <p class="profile--profession">Junior Frontend Developer</p>
+                        </div>
+                        <div class="profile--photo author">
+                            <img class="author--photo" src="./assets/img/profile/author-photo.png" alt="author photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="plug"></div>
+
+            <!-- Contacts -->
+            <div class="container section--container">
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts--head">contacts</h2>
+                    <ul class="contacts--list item flex-column">
+                        <li class="contacts--list"><a class="contacts--link item--map"
+                                href="https://goo.gl/maps/gXhRMH7ERjpxvUFfA" target="_blank">Germany, Landau in der Pfalz</a></li>
+                        <li class="contacts--list"><a class="contacts--link item--email" href="mailto:v.byurg@gmail.com"
+                                target="_blank">v.byurg@gmail.com</a></li>
+                        <li class="contacts--list"><a class="contacts--link item--gh" href="https://github.com/vbyurg"
+                                target="_blank">vbyurg</a></li>
+                        <li class="contacts--list"><a class="contacts--link item--tg" href="https://t.me/viktor_byurg"
+                                target="_blank">@viktor_byurg</a>
+                        </li>
+                        <li class="contacts--list"><a class="contacts--link item--ds" href="#" target="_blank">Victor
+                                Byurg (@vbyurg)</a></li>
+                    </ul>
+                </section>
+
+                <!-- About -->
+                <section class="about" id="about">
+                    <h2 class="about--head">About me</h2>
+                    <p>I am a future frontend developer. Development is my hobby.</p>
+                    <p>I like working with user interface design. I love non-standard design.</p>
+                    <p>
+                        My interest in development makes my hobby a favorite!
+                        I treat every project with respect and bring everything to the end!
+                        Time in development flies by unnoticed and I get great pleasure from my work.
+                        This pleasure motivates mefor further development.
+                        I really want to start working with the team. Feel this buzz.
+                    </p>
+                    <p>Almost all of my free time I study new technologies to my next projects they were more
+                        professional.
+                    </p>
+                    <p>
+                        In my free time I spend time with my family,
+                        I have a beautiful wife, the most unusual son on the planet and a very strange red cat.
+                        I love reading, playing guitar and learning something new!
+                    </p>
+                </section>
+
+                <!-- Skills -->
+                <section class="skills" id="skills">
+                    <h2 class="skills--head">skills</h2>
+                    <ul class="skills--list">
+                        <li class="skills--item skills--html">HTML</li>
+                        <li class="skills--item skills--css">CSS</li>
+                        <li class="skills--item skills--js">JavaScript</li>
+                        <li class="skills--item skills--sass">Sass / SCSS</li>
+                        <li class="skills--item skills--gh">Git / GitHub</li>
+                        <li class="skills--item skills--figma">Figma</li>
+                    </ul>
+                </section>
+
+                <!-- Code -->
+                <section class="code--ex" id="code--ex">
+                    <h2 class="code--ex--head">code</h2>
+                    <pre class="pre">
+                        <code>
+let arr = [];
+for (i = 1; i &lt; 10; i++) {
+    let str = '';                           
+    for (j = 0; j &lt; i; j++) {
+        str += i;
+    }
+    arr.push(str);
+};                          
+alert(arr);
+                        </code>
+                    </pre>
+                </section>
+
+                <!-- Courses -->
+                <section class="courses" id="courses">
+                    <h2 class="courses-head">courses</h2>
+                    <ul class="courses--list">
+                        <li class="courses--item">Training center “Professional”, Frontend</li>
+                        <li class="courses--item">Innopolis University, Frontend</li>
+                        <li class="courses--item">Rolling Scopes School, JavaScript/Front-end. Stage 0 (https://app.rs.school/certificate/lr13r3vi)</li>
+                        <li class="courses--item">Rolling Scopes School, JavaScript/Front-end. Stage 1</li>
+                    </ul>
+                </section>
+
+                <!-- Projects -->
+                <section class="projects" id="projects">
+                    <h2 class="projects--head">projects</h2>
+                    <ul class="projects--list">
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/arthobby"
+                                target="_blank">ArtHobby</a></li>
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/thrivery"
+                                target="_blank">ThriveTalk</a></li>
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/cat_energy"
+                                target="_blank">Cats</a></li>
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/example"
+                                target="_blank">House of sites</a></li>
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/plants"
+                                target="_blank">Plants</a></li>
+                        <li class="projects--item"><a class="projects--link" href="https://github.com/vbyurg/Momentum"
+                                target="_blank">Momentum</a></li>
+                    </ul>
+                </section>
+
+                <!-- Education -->
+                <section class="education" id="education">
+                    <h2 class="education--head">education</h2>
+                    <ul class="education--list">
+                        <li class="education--item">Institute of international social and humanitarian relations, Organization management</li>
+                        <li class="education--item">Moscow University of the Humanities, Psychologist</li>
+                    </ul>
+                </section>
+
+                <!-- English -->
+                <section class="english" id="english">
+                    <h2 class="english--head">english</h2>
+                    <p>A2 Pre-Intermediate</p>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer--wrapper flex-row ">
+                    <div class="year">
+                        <p>© 2023</p>
+                    </div>
+                    <!-- Footer GitHub link -->
+                    <div class="footer--github github">
+                        <a class="github--link" href="https://github.com/vbyurg" target="_blank">vbyurg</a>
+                    </div>
+
+                    <!-- Footer RS School logo -->
+                    <div class="footer--logo">
+                        <a class="footer--link" href="https://rs.school/js-stage0/" target="_blank">
+                            <img class="footer--img" src="./assets/img/svg/footer/rs_school_js.svg" alt="rsschool logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
