@@ -47,7 +47,6 @@ async function getWeather() {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&appid=3ad7a98561014b40ee447e2216eaafa1&units=metric`;
     const res = await fetch(url);
     const data = await res.json();
-
     // Err
     if (res.status > 400 && res.status < 600) {
         weatherError.textContent = `Ошибка! Город "${city}" не найден`;
