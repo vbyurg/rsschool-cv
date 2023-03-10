@@ -1,4 +1,4 @@
-# ![фото](./assets/img/photo-cv-markdown.jpg) Victor Byurg
+# ![фото](photo-cv-markdown.jpg) Victor Byurg
 
 ## Contacts
 * **Location:** Germany, Landau in der Pfalz
